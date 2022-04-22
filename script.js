@@ -77,11 +77,11 @@
 
 //სავარჯიშო#7
 
-// let array = [32, 10, 'hello', null, 'hello2', 50 ]
-// for (let x of array) {
-//    if (typeof x == 'number' && x % 5 == 0){
-//        console.log(x);
-//    }
-// }
+let array = [32, 10, 'hello', null, 'hello2', 50 ]
+for (let x of array) {
+   if (typeof x == 'number' && x % 5 === 0){
+       console.log(x);
+   }
+}
 
 
